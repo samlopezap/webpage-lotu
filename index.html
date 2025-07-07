@@ -1,81 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>LOTU Systems</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTU Systems - Developing Sustainable Aerospace Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>LOTU</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#vision" class="nav-link">Vision</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <header>
-    <h1>LOTU Systems</h1>
-    <p class="tagline">Developing sustainable aerospace systems</p>
-  </header>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="logo-container">
+                    <div class="logo">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="40" r="35" stroke="url(#gradient)" stroke-width="2"/>
+                            <path d="M25 40 L40 25 L55 40 L40 55 Z" fill="url(#gradient)"/>
+                            <defs>
+                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#2563eb"/>
+                                    <stop offset="100%" style="stop-color:#1d4ed8"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h1>LOTU Systems</h1>
+                </div>
+                <p class="tagline">Developing sustainable aerospace systems</p>
+                <p class="hero-description">Engineering the future of aviation through innovative, sustainable solutions that connect Latin America to global aerospace excellence.</p>
+                
+                <div class="hero-gif">
+                    <div class="aerospace-animation">
+                        <div class="satellite"></div>
+                        <div class="orbit"></div>
+                        <div class="orbit orbit-2"></div>
+                        <div class="orbit orbit-3"></div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="founders">
-    <blockquote>
-      “Our shared vision brought us together, and by combining our strengths, we’ve been able
-      to innovate and help the industry achieve its sustainability goals. That’s why we founded LoTu.”
-    </blockquote>
-    <p class="founder-name">Angélica Turizo – Co-Founder & CTO</p>
+    <!-- Founders' Vision Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <h2 class="section-title">Founders' Vision</h2>
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-info">
+                        <h3>Angélica Turizo</h3>
+                        <p class="founder-title">Co-Founder & CTO</p>
+                        <blockquote>
+                            "Innovation in aerospace isn't just about reaching new heights—it's about creating sustainable pathways that preserve our planet while expanding our horizons."
+                        </blockquote>
+                    </div>
+                    <div class="founder-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-info">
+                        <h3>Samuel López</h3>
+                        <p class="founder-title">Co-Founder & CEO</p>
+                        <blockquote>
+                            "Our mission is to bridge the gap between Latin American aerospace talent and global opportunities, creating solutions that benefit both our region and the world."
+                        </blockquote>
+                    </div>
+                    <div class="founder-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <blockquote>
-      “My partner and I are aerospace engineers who share a passion for innovation. We’ve been
-      collaborating for over five years to create sustainable solutions for the aerospace industry.”
-    </blockquote>
-    <p class="founder-name">Samuel López – Co-Founder & CEO</p>
-  </section>
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About LOTU Systems</h2>
+                <div class="about-text">
+                    <p>
+                        LOTU Systems represents the convergence of exceptional talent, innovative thinking, and strategic vision in the aerospace industry. Our team leverages the rich pool of engineering expertise across Latin America, connecting regional capabilities with global aerospace demands.
+                    </p>
+                    <p>
+                        We are committed to developing sustainable aerospace solutions that not only meet today's challenges but anticipate tomorrow's needs. Through our extensive network and collaborative approach, we deliver cutting-edge systems engineering, design, and analysis services to clients worldwide.
+                    </p>
+                    <p>
+                        Our mission extends beyond engineering excellence—we aim to establish Latin America as a key player in the global aerospace ecosystem, fostering innovation and creating opportunities for the next generation of aerospace professionals.
+                    </p>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <i class="fas fa-globe"></i>
+                        <h3>Global Reach</h3>
+                        <p>Connecting Latin American talent with worldwide opportunities</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <h3>Expert Team</h3>
+                        <p>Diverse network of aerospace engineering professionals</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Sustainability</h3>
+                        <p>Committed to environmentally responsible aerospace solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="about">
-    <h2>Who Are We</h2>
-    <p>
-      We bring together a world-class team and a network of the most qualified engineers across Latin America.
-      Our integrated solutions, powered by top-tier talent, are delivered globally to meet the needs of any project.
-    </p>
-  </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Recent Work & Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-helicopter"></i>
+                    </div>
+                    <h3>eVTOL Conceptual Design</h3>
+                    <p>
+                        Developed comprehensive conceptual designs for electric vertical takeoff and landing aircraft, focusing on sustainable urban mobility solutions and advanced propulsion systems.
+                    </p>
+                    <div class="card-tags">
+                        <span>Aircraft Design</span>
+                        <span>Electric Propulsion</span>
+                        <span>Urban Mobility</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Wind Tunnel Integration & Testing</h3>
+                    <p>
+                        Executed advanced wind tunnel testing programs, integrating cutting-edge measurement systems and data analysis techniques to validate aerodynamic performance models.
+                    </p>
+                    <div class="card-tags">
+                        <span>Aerodynamics</span>
+                        <span>Testing</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Biofuel Testing on Small Turbines</h3>
+                    <p>
+                        Conducted comprehensive biofuel compatibility and performance testing on small turbine engines, advancing sustainable aviation fuel adoption and optimization.
+                    </p>
+                    <div class="card-tags">
+                        <span>Sustainable Fuels</span>
+                        <span>Engine Testing</span>
+                        <span>Performance Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="recent-work">
-    <h2>Recent Work</h2>
-    <ul>
-      <li>
-        <strong>Conceptual design of an eVTOL:</strong> Developed a groundbreaking design for a fully electric vertical take-off
-        and landing aircraft, aimed at revolutionizing urban mobility.
-      </li>
-      <li>
-        <strong>Integration and testing of a wind tunnel:</strong> Built and fine-tuned a wind tunnel for an academic institution.
-      </li>
-      <li>
-        <strong>Testing of alternative jet fuels:</strong> Pioneered a methodology to test aviation biofuels using small-scale turbines.
-      </li>
-    </ul>
-  </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Systems Engineering / MBSE</h3>
+                    <p>
+                        Model-Based Systems Engineering (MBSE) approaches to design, analyze, and optimize complex aerospace systems throughout their lifecycle.
+                    </p>
+                    <ul>
+                        <li>Requirements analysis and management</li>
+                        <li>System architecture design</li>
+                        <li>Verification and validation</li>
+                        <li>Lifecycle management</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>CAD Design</h3>
+                    <p>
+                        Advanced computer-aided design services for aerospace components and systems, from conceptual sketches to detailed manufacturing drawings.
+                    </p>
+                    <ul>
+                        <li>3D modeling and visualization</li>
+                        <li>Parametric design optimization</li>
+                        <li>Technical documentation</li>
+                        <li>Manufacturing support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>CFD & FEA Analysis</h3>
+                    <p>
+                        Computational Fluid Dynamics and Finite Element Analysis to predict and optimize the performance of aerospace structures and fluid systems.
+                    </p>
+                    <ul>
+                        <li>Aerodynamic analysis</li>
+                        <li>Structural analysis</li>
+                        <li>Thermal analysis</li>
+                        <li>Multiphysics simulations</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>
+                        Custom software solutions for aerospace applications, including simulation tools, data analysis platforms, and automation systems.
+                    </p>
+                    <ul>
+                        <li>Simulation software</li>
+                        <li>Data analysis tools</li>
+                        <li>Automation systems</li>
+                        <li>Integration solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="services">
-    <h2>Services We Offer</h2>
-    <ul>
-      <li><strong>Design, Integration and Testing of Systems:</strong> Using Model-Based Systems Engineering (MBSE).</li>
-      <li><strong>CAD Design:</strong> Precise and innovative product development.</li>
-      <li><strong>CFD and FEA Analysis:</strong> Aerodynamic and structural optimization.</li>
-      <li><strong>Software Development:</strong> Custom applications, automation, and interfaces.</li>
-    </ul>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Create Together!</h2>
+                <p class="contact-description">
+                    Ready to take your aerospace project to the next level? We're here to collaborate with you on innovative solutions that make a difference.
+                </p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>
+                                    <a href="mailto:samuel@lotusystems.com">samuel@lotusystems.com</a><br>
+                                    <a href="mailto:angelica@lotusystems.com">angelica@lotusystems.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://linkedin.com/company/lotu-systems" target="_blank">Connect with us</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Latin America<br>Global Operations</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+57 (XXX) XXX-XXXX</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="contact">
-    <h2>Let’s Create Together!</h2>
-    <p>Reach out for a collab:</p>
-    <ul>
-      <li>Email: <a href="mailto:samuel@lotusystems.com">samuel@lotusystems.com</a></li>
-      <li>Email: <a href="mailto:angelica@lotusystems.com">angelica@lotusystems.com</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/company/lotu-systems/" target="_blank">LOTU Systems</a></li>
-    </ul>
-  </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>LOTU Systems</h3>
+                    <p>Developing sustainable aerospace systems</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#vision">Vision</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Systems Engineering</a></li>
+                            <li><a href="#services">CAD Design</a></li>
+                            <li><a href="#services">CFD & FEA</a></li>
+                            <li><a href="#services">Software Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="https://linkedin.com/company/lotu-systems" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LOTU Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-  <footer>
-    <p>© 2024 LOTU AEROSPACE, LLC</p>
-    <p>1111B S Governors Ave STE 21815 Dover, DE 19904</p>
-    <p>+57 310 686 6768</p>
-  </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
