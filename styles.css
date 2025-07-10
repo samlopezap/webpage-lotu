@@ -102,7 +102,13 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    /* Default gradient background - replace with your image */
     background: linear-gradient(135deg, #012768 0%, #000000 100%);
+    /* For custom background image, use: */
+    /* background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/images/hero-banner.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
     color: white;
     position: relative;
     overflow: hidden;
@@ -131,6 +137,9 @@ body {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo-container {
@@ -158,6 +167,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .tagline {
@@ -344,11 +356,29 @@ body {
     opacity: 0.8;
 }
 
+/* Custom founder photo styles */
 .founder-photo {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #1e83b6;
+    box-shadow: 0 4px 15px rgba(30, 131, 182, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(30, 131, 182, 0.4);
+}
+
+/* Custom logo styles */
+.logo img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
 }
 
 /* About Section */
@@ -801,6 +831,17 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .aerospace-animation {
+        width: 180px;
+        height: 180px;
+    }
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -827,16 +868,54 @@ body {
         margin: 1rem 0;
     }
     
+    /* Hero Section Responsive */
+    .hero {
+        min-height: 100vh;
+        padding: 100px 0 50px;
+    }
+    
+    .hero-container {
+        padding: 0 15px;
+    }
+    
+    .hero-content {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    
+    .logo-container {
+        margin-bottom: 1.5rem;
+    }
+    
+    .logo svg,
+    .logo img {
+        width: 360px;
+        }
+    
     .hero-content h1 {
         font-size: 2.5rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
     }
     
     .tagline {
         font-size: 1.2rem;
+        margin-bottom: 1rem;
     }
     
     .hero-description {
         font-size: 1rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+    }
+    
+    .hero-gif {
+        margin: 2rem 0;
+    }
+    
+    .aerospace-animation {
+        width: 150px;
+        height: 150px;
     }
     
     .section-title {
@@ -880,8 +959,53 @@ body {
         padding: 0 15px;
     }
     
+    /* Hero Section - Very Small Screens */
+    .hero {
+        min-height: 100vh;
+        padding: 80px 0 40px;
+    }
+    
+    .hero-container {
+        padding: 0 10px;
+    }
+    
+    .hero-content {
+        padding: 0 5px;
+    }
+    
+    .logo svg,
+    .logo img {
+        width: 250px;
+    }
+    
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.1;
+    }
+    
+    .tagline {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    .aerospace-animation {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .hero-gif {
+        margin: 1.5rem 0;
+    }
+    
+    .scroll-indicator {
+        bottom: 1rem;
     }
     
     .founder-card,
