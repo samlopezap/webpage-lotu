@@ -45,7 +45,7 @@ body {
 }
 
 .nav-logo h2 {
-    color: #2563eb;
+    color: #012768;
     font-weight: 700;
     font-size: 1.8rem;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #2563eb;
+    color: #1e83b6;
 }
 
 .nav-link::after {
@@ -75,7 +75,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #2563eb;
+    background: #1e83b6;
     transition: width 0.3s ease;
 }
 
@@ -102,7 +102,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #012768 0%, #000000 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -282,7 +282,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    background: linear-gradient(45deg, #1e83b6, #1d4ed8);
 }
 
 /* Vision Section */
@@ -322,7 +322,7 @@ body {
 }
 
 .founder-title {
-    color: #2563eb;
+    color: #1e83b6;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -340,8 +340,15 @@ body {
 
 .founder-avatar i {
     font-size: 4rem;
-    color: #2563eb;
+    color: #1e83b6;
     opacity: 0.8;
+}
+
+.founder-photo {
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1e83b6;
 }
 
 /* About Section */
@@ -384,7 +391,7 @@ body {
 
 .stat i {
     font-size: 2.5rem;
-    color: #2563eb;
+    color: #1e83b6;
     margin-bottom: 1rem;
 }
 
@@ -428,7 +435,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    background: linear-gradient(45deg, #1e83b6, #1d4ed8);
 }
 
 .experience-card:hover {
@@ -439,7 +446,7 @@ body {
 .card-icon {
     width: 70px;
     height: 70px;
-    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    background: linear-gradient(45deg, #1e83b6, #1d4ed8);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -509,7 +516,7 @@ body {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    background: linear-gradient(45deg, #1e83b6, #1d4ed8);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -550,7 +557,7 @@ body {
     content: '→';
     position: absolute;
     left: 0;
-    color: #2563eb;
+    color: #1e83b6;
     font-weight: bold;
 }
 
@@ -597,7 +604,7 @@ body {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #2563eb;
+    color: #1e83b6;
     margin-top: 0.2rem;
 }
 
@@ -673,7 +680,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    background: linear-gradient(45deg, #1e83b6, #1d4ed8);
     color: white;
     border: none;
     border-radius: 8px;
@@ -709,7 +716,7 @@ body {
 .footer-logo h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #2563eb;
+    color: #1e83b6;
 }
 
 .footer-logo p {
